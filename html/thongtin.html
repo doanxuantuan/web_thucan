@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/thongtin.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        h1{
+            background-color: red;
+            margin-top: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div>    
+        <h1 style="background-color: gray;margin-right: 100px;padding: 10px 20px;">Hover vào hình để xem thông tin</h1>
+        <a href="index.html">
+            <Button style="text-align: center;margin-left: 100px;margin-top: 100px;border-radius: 10px;width: 300px;height: 50px;font-size: 30px;color:chocolate;">Quay lại trang chủ</Button>
+        </a> 
+        </div>
+        <div class="container">
+        <div class="icon-social">
+                      <a href="https://www.facebook.com/Xuantuan059/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                      <a href="https://mail.google.com/mail/u/0/#inbox" ><i class="fa fa-google" aria-hidden="true"></i></a>
+                      <a href="https://www.instagram.com/xuantuan01/" ><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                      <a href="https://www.youtube.com/channel/UCGRteQaA_3MUX-crhiFxkLg"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                      <a href="https://www.linkedin.com/in/tuan-doan-xuan-041125211/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+        <img src="/assets/avatar.jpg" alt="">
+        <h2>Đoàn Xuân Tuấn</h2>
+        <p>Đông Hà,Quảng Trị</p>
+        <p>Sinh viên Trường Đại học Công Nghiệp Thực Phẩm</p>
+        <div class="btn-container">
+            <button>Liên hệ</button>
+            <button>Kết bạn</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="icon-social">
+                      <a href="https://www.facebook.com/Xuantuan059/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                      <a href="https://mail.google.com/mail/u/0/#inbox" ><i class="fa fa-google" aria-hidden="true"></i></a>
+                      <a href="https://www.instagram.com/xuantuan01/" ><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                      <a href="https://www.youtube.com/channel/UCGRteQaA_3MUX-crhiFxkLg"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                      <a href="https://www.linkedin.com/in/tuan-doan-xuan-041125211/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+        <img src="/assets/avatar1.jpg" alt="">
+        <h2>Lê Tuấn Minh</h2>
+        <p>Châu Thành,Trà Vinh</p>
+        <p>Sinh viên Trường Đại học Công Nghiệp Thực Phẩm</p>
+        <div class="btn-container">
+            <button>Liên hệ</button>
+            <button>Kết bạn</button>
+        </div>
+    </div>  
+
+</body>
+<script>
+    const imgB=document.querySelector('.container img')
+    imgB.addEventListener("click",function(){
+        this.classList.toggle("active")
+    })
+</script>
+</html>
